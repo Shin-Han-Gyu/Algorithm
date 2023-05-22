@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 //Boj 1013 gold5
-public class Solution {
+public class Main {
     static int N, M, K, ans;
     static int pi(String a) {
         return Integer.parseInt(a);
