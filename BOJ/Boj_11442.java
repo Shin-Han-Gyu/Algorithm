@@ -15,8 +15,12 @@ public class Solution {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         Ans = Long.parseLong(br.readLine());
-        if(Ans<2) {
+        if(Ans==0) {
             System.out.println(0);
+            return;
+        }
+        else if(Ans==1) {
+            System.out.println(1);
             return;
         }
         if(Ans%2==0) {
