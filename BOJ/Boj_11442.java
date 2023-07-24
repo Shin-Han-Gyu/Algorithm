@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-//Boj 11443 gold2
+//Boj 11442 gold2
 public class Solution {
     static int K, N, M, ans;
     static long Ans;
@@ -20,10 +20,10 @@ public class Solution {
             return;
         }
         if(Ans%2==0) {
-            System.out.println(fibo(Ans+1)-1);
+            System.out.println(fibo(Ans));
         }
         else {
-            System.out.println(fibo(Ans)-1);
+            System.out.println(fibo(Ans+1));
         }
     }
 
