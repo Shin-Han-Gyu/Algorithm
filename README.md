@@ -2,4 +2,4 @@
 
 ---
 
-## 1 day 2 Algo
+## 1day 1~2 Algo
