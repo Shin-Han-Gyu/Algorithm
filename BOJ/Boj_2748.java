@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-//Boj 2748
+//Boj 10870
 public class Main {
     static int K, N, M, ans;
     static HashMap<Long, Long> d = new HashMap<Long, Long>();
