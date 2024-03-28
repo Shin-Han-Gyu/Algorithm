@@ -7,7 +7,7 @@ public class Solution {
     static int[][] map;
     static int[] price;
     static int pi(String a) {
-        return Integer.parseInt(a);
+        return Int eger.parseInt(a);
     }
 
     public static void main(String[] args) throws Exception {
